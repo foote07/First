@@ -5,7 +5,7 @@ var app    = express();
 
 app.get('/', function(req, res){
   console.log('Incoming request');
-  res.send("Hey Hey");
+  res.send("Heyyy");
 });
 
 app.use(function(err, req, res, next){
