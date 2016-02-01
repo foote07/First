@@ -1,6 +1,6 @@
 version: 0.0
 os: linux
 files:
-  - source: /
+  - source: /app.js
     destination: /home/ec2-user/First
     overwrite: yes
