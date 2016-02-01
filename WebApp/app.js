@@ -4,7 +4,7 @@ var express   = require('express');
 var app    = express();
 
 app.get('/', function(req, res){
-  res.send("Newww");
+  res.send("New");
   console.log('Incoming request');
 });
 

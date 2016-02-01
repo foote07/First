@@ -3,3 +3,6 @@ os: linux
 files:
   - source: /WebApp
     destination: /home/ec2-user/First/WebApp
+hooks:
+  BeforeInstall:
+    - location: Scripts/ClearWebAppFolder.sh
